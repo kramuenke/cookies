@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/set' do
-  response.set_cookie("Bob", :value => 'foo', :path => '/login', :secure => true, :httpOnly => true)
+  response.set_cookie("Bob", :value => 'foo', :path => '/login', :secure => true, :htt_only => true)
   "bla"
 end
 
